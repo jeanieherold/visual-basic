@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JEANIE-PC</Machine>
+    <WindowsUser>Jeanie</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>29ea3510-5e84-42ef-b548-cfb383816f04</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>E761907F9AED50A2F5E6EA743F856B70B775924EA54E3935C91E6FD586ED81C1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>29ea3510-5e84-42ef-b548-cfb383816f04_1.0.0.0_neutral__dj7n93smz7t84</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>29ea3510-5e84-42ef-b548-cfb383816f04_dj7n93smz7t84!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>29ea3510-5e84-42ef-b548-cfb383816f04</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jeanie</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-25T23:42:01.172</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\bin\Debug\BubblePop.exe">
+      <PackagePath>BubblePop.exe</PackagePath>
+      <Modified>2015-04-27T02:22:21.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T11:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-25T23:41:59.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-27T02:07:16.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\bin\Debug\BubblePop.xr.xml">
+      <PackagePath>BubblePop.xr.xml</PackagePath>
+      <Modified>2015-04-27T01:39:27.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jeanie\Documents\Visual Studio 2013\Projects\BubblePop\BubblePop\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-25T23:42:00.479</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

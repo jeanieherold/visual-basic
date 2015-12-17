@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="BubblePop.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BubblePop"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='1' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                                          >
+        <TextBlock x:Name="scoreBlock1" HorizontalAlignment="Left" Margin="20,263,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" FontSize="36" Width="100" Height="65" Foreground="#FF15AC23"/>
+        <TextBlock x:Name="keepScore" HorizontalAlignment="Left" Margin="20,311,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="36" Width="100" Height="65"/>
+        <TextBlock x:Name="bestBlock" HorizontalAlignment="Left" Margin="20,379,0,0" TextWrapping="Wrap" Text="Best" VerticalAlignment="Top" FontSize="36" Height="65" Width="100" Foreground="#FF0F2DE8"/>
+        <TextBlock x:Name="scoreBlock2" HorizontalAlignment="Left" Margin="20,414,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" FontSize="36" Width="100" Height="65" Foreground="#FF0F2DE8"/>
+        <TextBlock x:Name="bestKeepScore" HorizontalAlignment="Left" Margin="20,463,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="65" FontSize="36" Width="100"/>
+        <Button x:Name="Quit" Content="Quit" HorizontalAlignment="Left" Margin="15,650,0,0" VerticalAlignment="Top" Width="125" Height="65" FontSize="36" BorderBrush="White" Foreground="#FFFFFFF9">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD1D1D1" Offset="0.033"/>
+                    <GradientStop Color="#FFFF0B0B" Offset="0.09"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Canvas x:Name="myCanvas" HorizontalAlignment="Left" Height="650" Margin="255,62,0,0" VerticalAlignment="Top" Width="975"/>
+        <Button x:Name="playAgain" Content="Play Again" HorizontalAlignment="Left" Margin="15,552,0,0" VerticalAlignment="Top" Width="227" Height="67" FontSize="36" Foreground="#FFBFBF08">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFBBBBBB" Offset="0"/>
+                    <GradientStop Color="#FF284F33" Offset="0.057"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="levelBlock" HorizontalAlignment="Left" Margin="20,133,0,0" TextWrapping="Wrap" Text="Level:" VerticalAlignment="Top" FontSize="36" Width="100" Height="65" Foreground="#FFEC920F"/>
+        <TextBlock x:Name="levelNumber" HorizontalAlignment="Left" Margin="20,181,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontSize="36" Width="100" Height="65"/>
+
+    </Grid>
+</Page>
+
